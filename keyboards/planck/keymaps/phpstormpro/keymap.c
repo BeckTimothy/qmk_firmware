@@ -35,7 +35,7 @@ enum planck_keycodes {
   BACKLIT,
   EXT_PLV,
   RV_LBRC,
-  RV_RBRC
+  RV_RBRC,
   PS_FZBZ
 };
 
