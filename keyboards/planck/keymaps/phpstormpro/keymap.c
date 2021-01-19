@@ -279,7 +279,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           break;
         case PS_FZBZ:
           if (record->event.pressed) {
-           	    SEND_STRING("function fizzBuzz($num){\nfor($i = 0; $i < $num; $i++){\n$response = '';\nif($num % 3 === 0){$response = $response + 'Fizz';}\nif($num % 5 === 0){$response = $response + 'Buzz';}\necho($response);" SS_TAP(KC_DOWN) SS_TAP(KC_DOWN) "fizzBuzz();" SS_TAP(KC_LEFT) SS_TAP(KC_LEFT) );
+           	    SEND_STRING("function fizzBuzz($num){\nfor($i = 0; $i < $num; $i++){\n$response = '';\nif($num % 3 === 0){$response = $response + 'Fizz';}\nif($num % 5 === 0){$response = $response + 'Buzz';}\necho($response);" SS_TAP(X_DOWN) SS_TAP(X_DOWN) "fizzBuzz();" SS_TAP(X_LEFT) SS_TAP(X_LEFT) );
            	  }
               return false;
               break;
